@@ -1,0 +1,36 @@
+
+
+
+---
+title: "Getting and Cleaning Data Course Project"
+author: "README by Chen Lianghe"
+date: "19/01/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Peer-graded Assignment: Getting and Cleaning Data Course Project
+
+This repository is my submission for the Peer-graded Assignment: Getting and Cleaning Data Course Project. It has instructions on how to run the analysis for the UCI HAR Dataset.
+
+Dataset:
+
+Human Activity Recognition Using Smartphones Dataset Version 1.0.
+
+Files:
+
+- CodeBook.Rmd
+    - A code book describing the data, variables and any transformations or work that I performed to get and clean up the data for the project.
+- run_analysis.R
+    - A script that performs the data preparation and the 5 steps required as defined in the Peer-graded Assignment: Getting and Cleaning Data Course Project.
+    - The 5 steps are as follows:
+        1. Merges the training and the test sets to create one data set.
+        2. Extracts only the measurements on the mean and standard deviation for each measurement.
+        3. Uses descriptive activity names to name the activities in the data set.
+        4. Appropriately labels the data set with descriptive variable names.
+        5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
